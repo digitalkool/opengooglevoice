@@ -1,8 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Open Google Voice",
-  "description": "Opens Google Voice In A New Thunderbird Tab",
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
   "version": "1.0",
+  "default_locale": "en",
   "applications": {
     "gecko": {
       "id": "opengooglevoice@rubenordonez.com",
@@ -17,7 +18,7 @@
   },
   "browser_action": {
     "browser_style": true,
-    "default_title": "Open Google Voice",
+    "default_title": "__MSG_browseractionCaption__",
     "default_icon": {
       "16": "icons/16.png",
       "32": "icons/32.png",
@@ -32,7 +33,7 @@
   },
   "developer": {
     "name": "Ruben Ordonez",
-    "url": "www.rubenordonez.com"
+    "url": "https://github.com/digitalkool/opengooglevoice"
   },
   "permissions": [
     "tabs",

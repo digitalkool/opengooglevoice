@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "Abre Google Voice",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Abre Google Voice en un nuevo Thunderbird Tab",
+    "description": "Description of the extension."
+  },
+
+  "browseractionCaption": {
+    "message": "Abre Google Voice",
+    "description": "Caption of the tool bar button."
+  }
+}  
