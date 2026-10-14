@@ -3,10 +3,37 @@
 <html>
   <head>
     <meta charset="utf-8"/>
+    <style>
+      :root {
+        color-scheme: light;
+        --page-background: #ffffff;
+        --page-foreground: #222222;
+        --divider: #cccccc;
+      }
+
+      body {
+        padding: 16px;
+        color: var(--page-foreground);
+        background-color: var(--page-background);
+      }
+
+      body.dark-mode {
+        color-scheme: dark;
+        --page-background: #202124;
+        --page-foreground: #e8eaed;
+        --divider: #5f6368;
+      }
+
+      .setting-group {
+        margin-top: 20px;
+        padding-top: 12px;
+        border-top: 1px solid var(--divider);
+      }
+    </style>
   </head>
 
-  <body bgcolor="#ffffff" text="#000000">
-  <h3>Open Google Calendar</h3>
+  <body>
+  <h3>Open Google Voice</h3>
 
     <p>This extension uses the tab features of Thunderbird to open Google
     Voice inside a Thunderbird tab.</p>
@@ -21,5 +48,13 @@
     will be prompted by a notification bar which can save your username and password
     for the site.  This password can be removed from the Security -> Passwords
     section of your preferences.</p>
+
+    <div class="setting-group">
+      <label for="darkModeToggle">
+        <input type="checkbox" id="darkModeToggle" /> Enable dark mode in Google Voice
+      </label>
+    </div>
+
+    <script src="options.js"></script>
   </body>
 </html>

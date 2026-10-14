@@ -1,4 +1,4 @@
-= Open Google Calendar =
+= Open Google Voice =
 
 This extension uses the tab features of Thunderbird to open Google
 Voice inside a Thunderbird tab.

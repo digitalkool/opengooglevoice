@@ -1,0 +1,76 @@
+html.opengooglevoice-dark-mode {
+  color-scheme: dark;
+  --voice-background: #131416;
+  --voice-surface: #1e1f20;
+  --voice-raised-surface: #282a2c;
+  --voice-text: #e3e3e3;
+  --voice-secondary-text: #c4c7c5;
+  --voice-divider: #444746;
+  --voice-link: #a8c7fa;
+  background-color: var(--voice-background) !important;
+  filter: none !important;
+}
+
+html.opengooglevoice-dark-mode body,
+html.opengooglevoice-dark-mode gv-root,
+html.opengooglevoice-dark-mode .gv-root.gv-page,
+html.opengooglevoice-dark-mode gv-app,
+html.opengooglevoice-dark-mode gv-side-panel,
+html.opengooglevoice-dark-mode mat-sidenav-container,
+html.opengooglevoice-dark-mode mat-sidenav-content {
+  color: var(--voice-text) !important;
+  background-color: var(--voice-background) !important;
+}
+
+html.opengooglevoice-dark-mode header,
+html.opengooglevoice-dark-mode mat-card,
+html.opengooglevoice-dark-mode .banner,
+html.opengooglevoice-dark-mode .inbox-summary-container,
+html.opengooglevoice-dark-mode .root.no-active-call {
+  color: var(--voice-text) !important;
+  background-color: var(--voice-surface) !important;
+}
+
+html.opengooglevoice-dark-mode .mat-mdc-tooltip.gv-root {
+  color: var(--voice-text) !important;
+  background-color: var(--voice-raised-surface) !important;
+}
+
+html.opengooglevoice-dark-mode gv-contact-item,
+html.opengooglevoice-dark-mode gv-call-thread-list-item,
+html.opengooglevoice-dark-mode gv-thread-list-item,
+html.opengooglevoice-dark-mode .thread-info,
+html.opengooglevoice-dark-mode .info-container,
+html.opengooglevoice-dark-mode .title,
+html.opengooglevoice-dark-mode .greeting,
+html.opengooglevoice-dark-mode .status,
+html.opengooglevoice-dark-mode .mat-mdc-list-item {
+  color: var(--voice-text) !important;
+}
+
+html.opengooglevoice-dark-mode .details,
+html.opengooglevoice-dark-mode .subtitle,
+html.opengooglevoice-dark-mode .timestamp,
+html.opengooglevoice-dark-mode .phone-number,
+html.opengooglevoice-dark-mode .phone-type,
+html.opengooglevoice-dark-mode .caption,
+html.opengooglevoice-dark-mode .call-as-label {
+  color: var(--voice-secondary-text) !important;
+}
+
+html.opengooglevoice-dark-mode a {
+  color: var(--voice-link) !important;
+}
+
+html.opengooglevoice-dark-mode mat-divider,
+html.opengooglevoice-dark-mode .menuDivider {
+  border-color: var(--voice-divider) !important;
+  background-color: var(--voice-divider) !important;
+}
+
+html.opengooglevoice-dark-mode input,
+html.opengooglevoice-dark-mode textarea {
+  color: var(--voice-text) !important;
+  background-color: var(--voice-raised-surface) !important;
+  border-color: var(--voice-divider) !important;
+}
