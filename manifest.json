@@ -31,6 +31,14 @@
     "open_in_tab": false,
     "browser_style": true
   },
+  "content_scripts": [
+    {
+      "matches": ["https://voice.google.com/*"],
+      "js": ["voice-theme.js"],
+      "css": ["voice-theme.css"],
+      "run_at": "document_start"
+    }
+  ],
   "developer": {
     "name": "Ruben Ordonez",
     "url": "https://github.com/digitalkool/opengooglevoice"
@@ -40,6 +48,7 @@
     "webNavigation",
     "cookies",
     "menus",
-    "activeTab"
+    "activeTab",
+    "storage"
   ]
 }
